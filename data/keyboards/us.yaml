@@ -7,16 +7,17 @@ outlines:
     spaceline: { width: 140, height: 46 }
     special: { width: 44, height: 46 }
     small: { width: 59, height: 22 }
+    num_small: { width: 35.33, height: 22 }
 
 views:
     base:
-        - "Ctrl Alt ↑ ↓ ← →"
+        - "small_1 small_2 small_3 small_4 small_5 small_6 small_7 small_8 small_9 small_0"
         - "q w e r t y u i o p"
         - "a s d f g h j k l show_symbols"
         - "Shift_L   z x c v b n m  BackSpace"
         - "show_numbers ,      space        period Return"
     upper:
-        - "Ctrl Alt PgUp PgDn Home End"
+        - "Ctrl Alt ↑ ↓ ← →"
         - "Q W E R T Y U I O P"
         - "A S D F G H J K L show_actions"
         - "Shift_L   Z X C V B N M  BackSpace"
@@ -198,3 +199,43 @@ buttons:
         modifier: "Alt"
         outline: "small"
         label: "Alt"
+    small_1:
+        label: "1"
+        outline: "small_num"
+        keysym: "1"
+    small_2:
+        label: "2"
+        outline: "small_num"
+        keysym: "2"
+    small_3:
+        label: "3"
+        outline: "small_num"
+        keysym: "3"
+    small_4:
+        label: "4"
+        outline: "small_num"
+        keysym: "4"
+    small_5:
+        label: "5"
+        outline: "small_num"
+        keysym: "5"
+    small_6:
+        label: "6"
+        outline: "small_num"
+        keysym: "6"
+    small_7:
+        label: "7"
+        outline: "small_num"
+        keysym: "7"
+    small_8:
+        label: "8"
+        outline: "small_num"
+        keysym: "8"
+    small_9:
+        label: "9"
+        outline: "small_num"
+        keysym: "9"
+    small_0:
+        label: "0"
+        outline: "small_num"
+        keysym: "0"        
